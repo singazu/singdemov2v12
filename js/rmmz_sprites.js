@@ -1244,7 +1244,23 @@ Sprite_Animation.prototype.setup = function(
     this._effect = EffectManager.load(animation.effectName);
     this._playing = true;
     const timings = animation.soundTimings.concat(animation.flashTimings);
-    for (const timing of timings) {
+    
+	if (this._animation.id === 124) { // Replace 'PUT ID HERE' with your animation's ID
+           this.z = 150; // Move to the negative layer
+           this.zIndex = 150; // Optional for finer control
+      }
+	
+	if (this._animation.id === 123) { // Replace 'PUT ID HERE' with your animation's ID
+           this.z = 150; // Move to the negative layer
+           this.zIndex = 150; // Optional for finer control
+      }
+	
+	if (this._animation.id === 122) { // Replace 'PUT ID HERE' with your animation's ID
+           this.z = 150; // Move to the negative layer
+           this.zIndex = 150; // Optional for finer control
+      }
+	
+	for (const timing of timings) {
         if (timing.frame > this._maxTimingFrames) {
             this._maxTimingFrames = timing.frame;
         }
