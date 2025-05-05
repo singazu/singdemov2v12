@@ -11,6 +11,7 @@ Ramza.PTS.version = 1.03
 Imported['Ramza_PreTitleSplash_MZ'] = true
 
 //=============================================================================
+// Brian edited line 332 to allow autoplay on edge browser
 //=============================================================================
 /*:
  * @target MZ
@@ -328,6 +329,7 @@ Window_DummyWindow.prototype.update = function(){
 	if (this._frameCount >= Ramza.PTS.params.waitFrames) {
 		this._waiting = true
 		if (this._list[0] && this._list[0].Type == "Video"){
+			Video._element.muted = true;
 			Video.play(this._list[0].File)
 		} else if (this._list[0] && this._list[0].Type == "Image") {
 			SceneManager._scene._splashSprite.bitmap = this._list[0].File
