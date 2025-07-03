@@ -11,7 +11,7 @@ null,
 null,
 {"id":10,"expanded":true,"name":"Copy Melody's Apartment DAY","order":10,"parentId":2,"scrollX":973.1999999999999,"scrollY":549,"quick":false},
 null,
-{"id":12,"expanded":false,"name":"Stamets Point ROBOTS","order":3,"parentId":0,"scrollX":1769.4545454545455,"scrollY":998.1818181818182,"quick":false},
+{"id":12,"expanded":false,"name":"Stamets Point ROBOTS","order":3,"parentId":0,"scrollX":1216.5,"scrollY":933.75,"quick":false},
 {"id":13,"expanded":false,"name":"Cassie's House","order":4,"parentId":0,"scrollX":1769.4545454545455,"scrollY":998.1818181818182,"quick":false},
 null,
 null,
@@ -23,5 +23,5 @@ null,
 null,
 {"id":22,"expanded":false,"name":"DEBUG MelAptWallEXPLOD","order":9,"parentId":2,"scrollX":754.1818181818181,"scrollY":326.90909090909093,"quick":false},
 null,
-{"id":24,"expanded":false,"name":"Harmony's Lab","order":1,"parentId":0,"scrollX":796,"scrollY":1235,"quick":false}
+{"id":24,"expanded":false,"name":"Harmony's Lab","order":1,"parentId":0,"scrollX":1228.5,"scrollY":1041.75,"quick":false}
 ]
